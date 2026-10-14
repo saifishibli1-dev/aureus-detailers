@@ -1,0 +1,6 @@
+{
+  "name": "AUREUS Bespoke Auto Atelier",
+  "description": "Premier luxury automotive atelier specializing in self-healing paint protection film (PPF), multi-stage ceramic coatings, and concourse paint restoration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

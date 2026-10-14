@@ -1,0 +1,52 @@
+@import "tailwindcss";
+@import "lenis/dist/lenis.css";
+
+@layer base {
+  :root {
+    --bg-primary: #0D0D0D;
+    --bg-secondary: #171717;
+    --text-primary: #F3F1EC;
+    --accent-gold: #B08D57;
+    --border-subtle: #2A2A2A;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #0D0D0D;
+    color: #F3F1EC;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: 'Cinzel', serif;
+    letter-spacing: -0.01em;
+  }
+
+  .font-luxury {
+    font-family: 'Cormorant Garamond', 'Cinzel', Georgia, serif;
+  }
+
+  .font-mono-numbers {
+    font-family: 'JetBrains Mono', monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Custom scrollbar for luxury feel */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0D0D0D;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2A2A2A;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #B08D57;
+}
